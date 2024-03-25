@@ -10,7 +10,9 @@ public class HelloWorldController {
 	
 	@GetMapping()  // Requisições do tipo GET / Busca
 	public String hello() {
-		return "Hello World <br> Trabalho Em Equipe <br> Comunicação <br>";
+		return "Hello World <br> Trabalho Em Equipe <br> Comunicação <br> Orientação ao Futuro <br> "
+				+ "Responsabilidade pessoal<br> Mentalidade de Crescimento <br> Persistência <br>"
+				+ " Orientação ao detalhe <br> Proatividade <br>";
 		
 	}
 
